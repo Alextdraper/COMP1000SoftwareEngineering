@@ -25,9 +25,9 @@ int main()
 	printf("And then after that, you will be %d\n", ageNextYear);
 
 	//Overflow
-	year = 32767;
-	year = year + 1;
-	printf("year = %d\n", year);
+	unsigned short year = 65535;
+	unsigned short year = year + 1;
+	printf("year = %u\n", year);
 
 	//Divide
 	age = 50;
